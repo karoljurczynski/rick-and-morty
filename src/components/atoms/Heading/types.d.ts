@@ -1,0 +1,1 @@
+interface HeadingProps { children: ReactNode };

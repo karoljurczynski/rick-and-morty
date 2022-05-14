@@ -1,0 +1,3 @@
+interface SearchInputProps {
+  inputHandler: () => void;
+}

@@ -1,0 +1,3 @@
+interface FilterInputProps {
+  filterType: string;
+}
