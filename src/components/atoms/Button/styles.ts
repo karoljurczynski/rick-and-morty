@@ -12,7 +12,8 @@ export const Wrapper = styled.button<ButtonWrapperProps>`
   background-color: ${props => props.buttonType === BUTTON_TYPE.CHANGE ? COLORS.PRIMARY_BLUE : COLORS.BUTTON_RED};
   border: 1px solid ${COLORS.BUTTON_BORDER};
   border-radius: 5px;
-`; 
+  cursor: pointer;
+`;
 export const Text = styled.p`
   color: ${COLORS.PRIMARY_WHITE};
   font-size: 14px;

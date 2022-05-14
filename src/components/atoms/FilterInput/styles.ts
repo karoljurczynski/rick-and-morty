@@ -2,7 +2,7 @@ import styled from "styled-components";
 import COLORS from "../../../config/colors/colors";
 
 
-export const Background = styled.button`
+export const Wrapper = styled.button`
   width: 140px;
   display: flex;
   align-items: center;

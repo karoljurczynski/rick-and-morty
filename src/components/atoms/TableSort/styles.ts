@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { SORT_DIRECTION, TABLE_CELL_SIZE } from "../../../tools/constants";
 
 
-export const Wrapper = styled.div<TableSortWrapperProps>`
+export const Wrapper = styled.th<TableSortWrapperProps>`
   display: flex;
   align-items: center;
   justify-content: space-between;

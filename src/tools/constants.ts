@@ -10,7 +10,7 @@ export const BUTTON_TYPE = {
   REMOVE: 'Remove characters'
 }
 
-export const SORT_TYPE = {
+export const TABLE_CELL_TYPE = {
   NAME:     'Name',
   AVATAR:   'Avatar',
   ORIGIN:   'Origin',
