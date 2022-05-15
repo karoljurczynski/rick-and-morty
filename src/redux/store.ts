@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import characterReducer from './reducers/characterReducer';
 import episodeReducer from './reducers/episodeReducer';
+import filterReducer from './reducers/filterReducer';
 import locationReducer from './reducers/locationReducer';
 import pageReducer from './reducers/pageReducer';
 
@@ -10,7 +11,8 @@ const store = configureStore({
     page: pageReducer,
     character: characterReducer,
     location: locationReducer,
-    episodes: episodeReducer
+    episodes: episodeReducer,
+    filter: filterReducer
   },
 });
 

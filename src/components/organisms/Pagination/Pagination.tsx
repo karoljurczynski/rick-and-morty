@@ -1,23 +1,33 @@
-
+import ReactPaginate from "react-paginate";
+import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import { RootState } from "../../../redux/store";
+import { changePage } from "../../../redux/reducers/pageReducer";
+import { AppDispatch, RootState } from "../../../redux/store";
 import PaginationTile from "../../atoms/PaginationTile/PaginationTile";
 import { Wrapper } from "./styles";
 
 
 const Pagination: React.FC = () => {
-  const page = useSelector<RootState>(state => state.page);
+  const page = useSelector<RootState>(state => state.page) as PageState;
+  const dispatch = useDispatch<AppDispatch>();
+
+  const handlePageChange = (newPage: any) => {
+    dispatch(changePage(newPage.selected + 1));
+  }
+  
   return (
     <Wrapper>
-      <PaginationTile prevButton />
-      <PaginationTile pageNumber={1} active />
-      <PaginationTile pageNumber={2}/>
-      <PaginationTile pageNumber={3}/>
-      <PaginationTile ellipsis />
-      <PaginationTile pageNumber={23}/>
-      <PaginationTile pageNumber={24} />
-      <PaginationTile pageNumber={25}/>
-      <PaginationTile nextButton />
+      <ReactPaginate
+        breakLabel={<PaginationTile ellipsis />}
+        nextLabel={<PaginationTile nextButton />}
+        onPageChange={handlePageChange}
+        pageRangeDisplayed={3}
+        pageCount={page.totalPages}
+        previousLabel={<PaginationTile prevButton />}
+        className="pagination"
+        pageClassName="pagination__item"
+        activeClassName="pagination__item--active"
+      />
     </Wrapper>
   );
 }

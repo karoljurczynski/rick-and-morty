@@ -18,7 +18,7 @@ const TableRow: React.FC<TableRowProps> = ({ character }) => {
   useEffect(() => {
     getCharacterLocation();
     getCharacterEpisodes();
-    console.log(episodes);
+    
   }, []);
 
   const getCharacterLocation = async () => {

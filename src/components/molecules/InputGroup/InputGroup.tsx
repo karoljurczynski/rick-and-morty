@@ -5,12 +5,9 @@ import { Wrapper } from "./styles";
 
 
 const InputGroup: React.FC = () => {
-  const handleSearch = () => {
-    
-  }
   return (
     <Wrapper>
-      <SearchInput inputHandler={handleSearch} />
+      <SearchInput />
       <FilterInput filterType={FILTER_TYPE.SPECIES}/>
       <FilterInput filterType={FILTER_TYPE.ORIGIN}/>
       <FilterInput filterType={FILTER_TYPE.STATUS}/>

@@ -3,6 +3,7 @@ import COLORS from "../../../config/colors/colors";
 
 
 export const Input = styled.input`
+  width: 50%;
   font-size: 14px;
   line-height: 130%;
   color: ${COLORS.PRIMARY_ANTHRACITE_80};
