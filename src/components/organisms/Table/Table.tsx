@@ -23,8 +23,7 @@ const Table: React.FC = () => {
       .then(res => res && res.ok ? res.json() : dispatch(setAllCharacters([])))
       .then(res => { 
         dispatch(setAllCharacters(res.results));
-        dispatch(setTotalPages(res.info.pages))
-        
+        dispatch(setTotalPages(res.info.pages));
       });    
   }
 

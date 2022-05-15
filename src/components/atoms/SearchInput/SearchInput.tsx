@@ -10,9 +10,7 @@ import { setFilterByName } from "../../../redux/reducers/filterReducer";
 const SearchInput: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target.value);
     dispatch(setFilterByName(e.target.value));
-
   }
 
   return (

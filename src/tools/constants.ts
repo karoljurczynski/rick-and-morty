@@ -39,3 +39,18 @@ export const STATUS_ICONS = {
   'Dead': ExclamationMark,
   'unknown': QuestionMark
 }
+
+export const SPECIES_TYPES = {
+  HUMAN: 'human',
+  ALIEN: 'alien'
+}
+
+export const ORIGIN_TYPES = {
+  
+}
+
+export const STATUS_TYPES = {
+  ALIVE: 'alive',
+  DEAD: 'dead',
+  UNKNOWN: 'unknown'
+}

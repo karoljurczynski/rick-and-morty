@@ -14,12 +14,10 @@ export const filterSlice = createSlice({
   reducers: {
     setFilterByName: (state: FilterState, action: PayloadAction<any>) => ({...state, name: action.payload}),
     setFilterByStatus: (state: FilterState, action: PayloadAction<any>) => ({...state, status: action.payload}),
-    setFilterBySpecies: (state: FilterState, action: PayloadAction<any>) => ({...state, species: action.payload}),
-    setFilterByType: (state: FilterState, action: PayloadAction<any>) => ({...state, type: action.payload}),
-    setFilterByGender: (state: FilterState, action: PayloadAction<any>) => ({...state, gender: action.payload}),
+    setFilterBySpecies: (state: FilterState, action: PayloadAction<any>) => ({...state, species: action.payload})
   },
 });
 
 
-export const { setFilterByName } = filterSlice.actions;
+export const { setFilterByName, setFilterByStatus, setFilterBySpecies } = filterSlice.actions;
 export default filterSlice.reducer;
