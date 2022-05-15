@@ -1,3 +1,8 @@
+import Checkmark from '../images/checkmark.svg';
+import ExclamationMark from '../images/exclamation_mark.svg';
+import QuestionMark from '../images/question_mark.svg';
+
+
 export const FILTER_TYPE = {
   SEARCH:  'Search',
   SPECIES: 'Species',
@@ -27,4 +32,10 @@ export const TABLE_CELL_SIZE = {
 export const SORT_DIRECTION = {
   ASCENDING: 'ascending',
   DESCENDING: 'descending'
+}
+
+export const STATUS_ICONS = {
+  'Alive': Checkmark,
+  'Dead': ExclamationMark,
+  'unknown': QuestionMark
 }

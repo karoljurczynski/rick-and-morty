@@ -14,11 +14,13 @@ export const Wrapper = styled.td<TableCellWrapperProps>`
   `}
 `;
 export const Text = styled.p`
+  display: inline;
   font-size: 15px;
   font-weight: 400;
   line-height: 130%;
   margin-bottom: 8px;
   color: ${COLORS.PRIMARY_ANTHRACITE_100};
+  text-overflow: ellipsis;
 `;
 export const Title = styled(Text)`
   font-weight: 500;

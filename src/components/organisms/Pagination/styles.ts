@@ -7,4 +7,5 @@ export const Wrapper = styled.div`
   margin-top: 43px;
   justify-content: flex-end;
   gap: 4px;
+  margin-bottom: 54px;
 `;

@@ -1,0 +1,3 @@
+interface TableRowProps {
+  character: Character;
+}

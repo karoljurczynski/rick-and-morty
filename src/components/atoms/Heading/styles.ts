@@ -7,6 +7,7 @@ const StyledHeading = styled.h1`
   line-height: 125%;
   font-weight: 700;
   color: ${COLORS.PRIMARY_ANTHRACITE_100};
+  margin-top: 55px;
 `;
 
 

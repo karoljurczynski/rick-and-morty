@@ -14,15 +14,14 @@ const StylesConfig = createGlobalStyle`
     outline: none;
     border: none;
     box-shadow: none;
-    overflow: hidden;
   }
   body {
     width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: ${COLORS.PRIMARY_BLUE_LIGHT};
+    overflow-x: hidden;
   }
 `;
 
