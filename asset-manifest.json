@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/rick-and-morty/static/js/main.06d3378c.js",
+    "static/media/trashcan.svg": "/rick-and-morty/static/media/trashcan.94ed526fa055161b745fdd71616cdac5.svg",
+    "static/media/change_status.svg": "/rick-and-morty/static/media/change_status.24fdedb4e82bd8836c519cae722771bd.svg",
+    "static/media/question_mark.svg": "/rick-and-morty/static/media/question_mark.0f04f8183aaab2675336c3f68f0c1eb3.svg",
+    "static/media/exclamation_mark.svg": "/rick-and-morty/static/media/exclamation_mark.8fab701da8c08845147fa712c20a8b83.svg",
+    "index.html": "/rick-and-morty/index.html",
+    "static/media/search.svg": "/rick-and-morty/static/media/search.31b187df0038c9786941512ff6923a3f.svg",
+    "static/media/checkmark.svg": "/rick-and-morty/static/media/checkmark.8c0676c3887a1f44164157b3b72a5a08.svg",
+    "static/media/next_page.svg": "/rick-and-morty/static/media/next_page.37c2af2b9819ebdb7df6c34e692115d4.svg",
+    "static/media/previous_page.svg": "/rick-and-morty/static/media/previous_page.68fa1bc2e887d3357ac5d497dd175877.svg",
+    "static/media/unactive_filter.svg": "/rick-and-morty/static/media/unactive_filter.0cdeb3e056a9ece4d37e3c4195ce24a4.svg",
+    "static/media/active_filter.svg": "/rick-and-morty/static/media/active_filter.950f752dc7a31bfe612066d440b9e2d8.svg",
+    "main.06d3378c.js.map": "/rick-and-morty/static/js/main.06d3378c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.06d3378c.js"
+  ]
+}
